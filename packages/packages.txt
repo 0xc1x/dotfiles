@@ -1,0 +1,23 @@
+# Paquetes esenciales que quieres mantener
+hyprland
+waybar
+foot          # o kitty / alacritty
+neovim
+git
+stow
+zsh
+starship
+fzf
+ripgrep
+fd
+bat
+eza
+zoxide
+# Agrega aquí los que realmente usas
+
+# Ejemplos de cosas que quizás quieras quitar del bloat de Omarchy
+# spotify
+# chromium
+# typora
+# libreoffice
+# zoom
