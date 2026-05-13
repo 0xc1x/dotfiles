@@ -144,3 +144,9 @@ omarchy-restart-walker
 - **Screensaver**: ASCII art generado desde imagen PNG con
   `omarchy-transcode-ascii imagen.png ~/.config/omarchy/branding/screensaver.txt --mode block`
 - **SDDM**: Logo personalizado embebido como SVG en el tema de login.
+- **color8 fix**: Aether genera `color8` (bright_black) como `#000000`,
+  invisible sobre fondo negro. El blueprint tiene `color8 = #3a3a3a` con
+  `lockedColors[8] = true`, y el hook `theme-set` corrige automáticamente
+  `colors.toml`, `kitty.conf`, `gtk.css`, `helix.toml` y `btop.theme`
+  después de cada cambio de tema.
+- **Suspend**: hypridle suspende después de 30 min de inactividad.

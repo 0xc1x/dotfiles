@@ -1,0 +1,22 @@
+#!/bin/bash
+# Fix Aether invisible color8 (bright_black #000000 -> #3a3a3a)
+# Aether generates #000000 for color8 which is invisible on black background
+
+COLORS_FILE="$HOME/.config/omarchy/current/theme/colors.toml"
+[[ -f "$COLORS_FILE" ]] && sed -i 's/^color8 = "#000000"/color8 = "#3a3a3a"/' "$COLORS_FILE"
+
+for f in \
+  "$HOME/.config/omarchy/current/theme/kitty.conf" \
+  "$HOME/.config/omarchy/current/theme/helix.toml"; do
+  [[ -f "$f" ]] || continue
+  sed -i 's/^color8 = "#000000"/color8 = "#3a3a3a"/' "$f"
+  sed -i 's/^color8  *#000000/color8  #3a3a3a/' "$f"
+done
+
+[[ -f "$HOME/.config/omarchy/current/theme/gtk.css" ]] && \
+  sed -i 's/@define-color bright_black #000000/@define-color bright_black #3a3a3a/' "$HOME/.config/omarchy/current/theme/gtk.css"
+
+[[ -f "$HOME/.config/omarchy/current/theme/btop.theme" ]] && {
+  sed -i 's/^theme\[inactive_fg\]="#000000"/theme[inactive_fg]="#3a3a3a"/' "$HOME/.config/omarchy/current/theme/btop.theme"
+  sed -i 's/^theme\[div_line\]="#000000"/theme[div_line]="#3a3a3a"/' "$HOME/.config/omarchy/current/theme/btop.theme"
+}
