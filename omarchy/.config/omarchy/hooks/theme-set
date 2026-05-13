@@ -13,6 +13,9 @@ for f in \
   sed -i 's/^color8  *#000000/color8  #3a3a3a/' "$f"
 done
 
+[[ -f "$HOME/.config/omarchy/current/theme/ghostty.conf" ]] && \
+  sed -i 's/^palette = 8=#000000/palette = 8=#3a3a3a/' "$HOME/.config/omarchy/current/theme/ghostty.conf"
+
 [[ -f "$HOME/.config/omarchy/current/theme/gtk.css" ]] && \
   sed -i 's/@define-color bright_black #000000/@define-color bright_black #3a3a3a/' "$HOME/.config/omarchy/current/theme/gtk.css"
 
