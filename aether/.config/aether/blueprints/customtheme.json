@@ -1,0 +1,72 @@
+{
+  "palette": {
+    "colors": [
+      "#000000",
+      "#b67b72",
+      "#98b39d",
+      "#bbbb8b",
+      "#8da5c8",
+      "#cca099",
+      "#809aa5",
+      "#d7dcd6",
+      "#000000",
+      "#d7b2ad",
+      "#98b39e",
+      "#dadabc",
+      "#bbcae1",
+      "#e2c5c0",
+      "#95adb7",
+      "#d7dcd6"
+    ],
+    "wallpaper": "/home/xcix/.cache/aether/wallpaper.jpg",
+    "wallpaperUrl": null,
+    "wallpaperSource": "local",
+    "lightMode": false,
+    "lockedColors": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "extendedColors": {
+      "accent": "#f10303"
+    }
+  },
+  "adjustments": {
+    "vibrance": 0,
+    "saturation": 0,
+    "contrast": 0,
+    "brightness": 0,
+    "shadows": 0,
+    "highlights": 0,
+    "hueShift": 0,
+    "temperature": 0,
+    "tint": 0,
+    "blackPoint": 0,
+    "whitePoint": 0,
+    "gamma": 1
+  },
+  "appOverrides": {},
+  "settings": {
+    "includeNeovim": true,
+    "includeZed": true,
+    "includeVscode": true,
+    "includeGtk": true,
+    "lightMode": false,
+    "selectedNeovimConfig": null
+  },
+  "timestamp": 1773706364698,
+  "name": "CustomTheme"
+}

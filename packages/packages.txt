@@ -1,11 +1,23 @@
-# Paquetes esenciales que quieres mantener
+# === Paquetes necesarios ===
+# Window manager y compositor
 hyprland
+hypridle
+hyprlock
+hyprpicker
+hyprsunset
+uwsm
+
+# Barra de estado y launcher
 waybar
-foot          # o kitty / alacritty
-neovim
-git
-stow
-zsh
+omarchy-walker
+mako
+
+# Terminal
+ghostty
+alacritty
+
+# Shell y herramientas CLI
+bash-completion
 starship
 fzf
 ripgrep
@@ -13,11 +25,15 @@ fd
 bat
 eza
 zoxide
-# Agrega aquí los que realmente usas
 
-# Ejemplos de cosas que quizás quieras quitar del bloat de Omarchy
-# spotify
-# chromium
-# typora
-# libreoffice
-# zoom
+# Portapapeles y capturas
+clipse
+
+# Seguridad y claves
+bitwarden
+
+# Navegadores
+microsoft-edge-stable-bin
+
+# Comunicación
+telegram-desktop

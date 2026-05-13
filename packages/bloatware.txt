@@ -1,0 +1,49 @@
+# === Bloatware a eliminar ===
+# Paquetes de Omarchy que no necesitas
+# Descomenta los que quieras eliminar
+
+# Navegadores extra (si solo usas chromium o edge)
+# firefox
+
+# Ofimática (si usas typora/obsidian y no libreoffice)
+# libreoffice-fresh
+
+# Apps que no usas
+# spotify
+# obs-studio
+# telegram-desktop
+# typora
+
+# Android dev (si no haces desarrollo móvil)
+# android-emulator
+# android-google-apis-playstore-x86-64-system-image
+# android-platform-34
+# android-sdk
+# android-sdk-build-tools
+# android-sdk-cmdline-tools-latest
+# android-sdk-platform-tools
+# android-studio
+# flutter
+# dart
+
+# VPN/remote (si no los usas)
+# forticlient-vpn
+# freerdp
+# virt-viewer
+
+# Impresión (si no imprimes)
+# cups
+# cups-browsed
+# cups-filters
+# cups-pdf
+# system-config-printer
+
+# OneDrive (si no lo usas)
+# onedrive-abraunegg
+
+# Otros
+# bitwarden          # si usas 1password
+# proton-pass-git    # si usas 1password
+# microsoft-edge-stable-bin  # si solo usas chromium
+# cliamp             # cliente CLI de Anthropic
+# ollama             # si no usas LLM local

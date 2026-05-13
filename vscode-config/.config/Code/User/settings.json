@@ -1,0 +1,13 @@
+{ "workbench.colorTheme": "Aether",
+"update.mode": "none",
+"[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+}
+}

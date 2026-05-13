@@ -1,0 +1,6 @@
+{
+  "includeNeovim": true,
+  "includeZed": true,
+  "includeVscode": true,
+  "includeGtk": true
+}
