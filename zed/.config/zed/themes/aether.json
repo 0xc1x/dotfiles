@@ -8,12 +8,12 @@
       "appearance": "dark",
       "style": {
         "background": "#000000",
-        "border": "#00000040",
-        "border.variant": "#00000060",
-        "border.focused": "#8da5c8",
-        "border.selected": "#8da5c880",
-        "border.transparent": "#00000000",
-        "border.disabled": "#00000030",
+"border": "#3a3a3a",
+      "border.variant": "#2a2a2a",
+      "border.focused": "#8da5c8",
+      "border.selected": "#8da5c880",
+      "border.transparent": "#1a1a1a00",
+      "border.disabled": "#2a2a2a30",
 
         "elevated_surface.background": "#000000",
         "surface.background": "#000000",
