@@ -1,5 +1,10 @@
 @import "../../../../../../../.config/omarchy/current/theme/walker.css";
 
+@define-color base #0a0a0a;
+@define-color border #3a3a3a;
+@define-color selected-bg #1a1a2a;
+@define-color selected-text #bbcae1;
+
 * {
   all: unset;
 }
@@ -23,7 +28,7 @@ scrollbar {
 }
 
 .box-wrapper {
-  background: alpha(@base, 0.95);
+  background: @base;
   padding: 20px;
   border: 2px solid @border;
   border-radius: 16px;
@@ -36,7 +41,7 @@ scrollbar {
 }
 
 .search-container {
-  background: @base;
+  background: #111111;
   padding: 10px;
   border-radius: 12px;
 }
@@ -81,7 +86,7 @@ child:selected .item-box * {
 }
 
 child:selected {
-  background: alpha(@text, 0.07);
+  background: @selected-bg;
 }
 
 .item-box {
@@ -113,11 +118,10 @@ child:selected {
 }
 
 .keybind-hints {
-  background: @background;
+  background: #111111;
   padding: 10px;
   margin-top: 10px;
 }
 
 .preview {
 }
-
