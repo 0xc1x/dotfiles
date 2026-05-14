@@ -1,37 +1,37 @@
 @import "../../../../../../../.config/omarchy/current/theme/walker.css";
 
-@define-color base #0a0a0a;
+@define-color base #000000;
 @define-color border #3a3a3a;
 @define-color selected-bg #1a1a2a;
 @define-color selected-text #bbcae1;
 
 * {
-  all: unset;
+all: unset;
 }
 
 * {
-  font-family: monospace;
-  font-size: 18px;
-  color: @text;
+font-family: monospace;
+font-size: 18px;
+color: @text;
 }
 
 scrollbar {
-  opacity: 0;
+opacity: 0;
 }
 
 .normal-icons {
-  -gtk-icon-size: 16px;
+-gtk-icon-size: 16px;
 }
 
 .large-icons {
-  -gtk-icon-size: 32px;
+-gtk-icon-size: 32px;
 }
 
 .box-wrapper {
-  background: @base;
-  padding: 20px;
-  border: 2px solid @border;
-  border-radius: 16px;
+background: alpha(@base, 0.95);
+padding: 20px;
+border: 2px solid @border;
+border-radius: 8px;
 }
 
 .preview-box {
@@ -41,13 +41,13 @@ scrollbar {
 }
 
 .search-container {
-  background: #111111;
-  padding: 10px;
-  border-radius: 12px;
+    background: #111111;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .input placeholder {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .input {
@@ -55,8 +55,8 @@ scrollbar {
 
 .input:focus,
 .input:active {
-  box-shadow: none;
-  outline: none;
+    box-shadow: none;
+    outline: none;
 }
 
 .content-container {
@@ -82,45 +82,46 @@ child:selected .item-box {
 }
 
 child:selected .item-box * {
-  color: @selected-text;
+    color: @selected-text;
 }
 
 child:selected {
-  background: @selected-bg;
+    background: @selected-bg;
+    border-radius: 4px;
 }
 
 .item-box {
-  padding-left: 14px;
+    padding-left: 14px;
 }
 
 .item-text-box {
-  all: unset;
-  padding: 14px 0;
+    all: unset;
+    padding: 14px 0;
 }
 
 .item-text {
 }
 
 .item-subtext {
-  font-size: 0px;
-  min-height: 0px;
-  margin: 0px;
-  padding: 0px;
+    font-size: 0px;
+    min-height: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .item-image {
-  margin-right: 14px;
-  -gtk-icon-transform: scale(0.9);
+    margin-right: 14px;
+    -gtk-icon-transform: scale(0.9);
 }
 
 .current {
-  font-style: italic;
+    font-style: italic;
 }
 
 .keybind-hints {
-  background: #111111;
-  padding: 10px;
-  margin-top: 10px;
+    background: #111111;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .preview {

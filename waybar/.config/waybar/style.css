@@ -36,20 +36,20 @@
 
 #taskbar button {
     all: initial;
-    padding: 0 6px;
-    margin: 0 2px;
-    min-width: 24px;
+    padding: 2px;
+    margin: 2px;
     border-bottom: 2px solid transparent;
 }
 
 #taskbar button.active {
-    border-bottom: 1px solid #8da5c8;
+    border-bottom: 2px solid #8da5c8;
 }
 
 #taskbar button:hover {
     border-bottom: 2px solid #bbcae1;
 }
 
+#bluetooth,
 #cpu,
 #network,
 #battery,
