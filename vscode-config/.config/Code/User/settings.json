@@ -9,5 +9,6 @@
     "editor.selectionHighlight": false,
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
-}
+},
+"git.confirmSync": false
 }
