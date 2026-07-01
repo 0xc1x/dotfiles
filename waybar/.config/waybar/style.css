@@ -34,10 +34,30 @@
     margin-left: 8px;
 }
 
+#taskbar button,
+.taskbar-window {
+    all: initial;
+    padding: 5px;
+    margin: 1px 2px;
+    font-size: 11px;
+    border-bottom: 2px solid transparent;
+}
+
+#taskbar button.active,
+.taskbar-window.active {
+    border-bottom: 2px solid #8da5c8;
+}
+
+#taskbar button:hover,
+.taskbar-window:hover {
+    border-bottom: 2px solid #bbcae1;
+}
+
 #taskbar button {
     all: initial;
-    padding: 2px;
-    margin: 2px;
+    padding: 0 6px;
+    margin: 1px 2px;
+    font-size: 11px;
     border-bottom: 2px solid transparent;
 }
 
@@ -49,7 +69,10 @@
     border-bottom: 2px solid #bbcae1;
 }
 
-#bluetooth,
+#bluetooth {
+    font-size: 16px;
+}
+
 #cpu,
 #network,
 #battery,

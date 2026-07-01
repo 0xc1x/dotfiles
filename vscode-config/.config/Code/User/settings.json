@@ -10,5 +10,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
 },
-"git.confirmSync": false
+"git.confirmSync": false,
+"chat.mcp.gallery.enabled": true
 }

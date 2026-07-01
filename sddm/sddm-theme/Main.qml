@@ -34,11 +34,13 @@ Rectangle {
         spacing: root.height * 0.04
         width: parent.width
 
-        Image {
-            source: "logo.svg"
-            width: root.width * 0.35
-            height: Math.round(width * sourceSize.height / sourceSize.width)
-            fillMode: Image.PreserveAspectFit
+        Text {
+            text: "xcix"
+            color: "#ffffff"
+            font.family: "JetBrainsMono Nerd Font"
+            font.pixelSize: root.height * 0.08
+            font.bold: true
+            letterSpacing: root.height * 0.01
             anchors.horizontalCenter: parent.horizontalCenter
         }
 

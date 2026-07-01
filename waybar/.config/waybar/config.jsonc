@@ -47,7 +47,7 @@
     },
   },
   "wlr/taskbar": {
-    "format": "{icon}",
+    "format": "{name}",
     "icon-size": 16,
     "tooltip-format": "{title}",
     "on-click": "activate",
@@ -109,7 +109,7 @@
     "return-type": "json",
     "interval": 60,
     "tooltip": false,
-    "on-click": "notify-send -u low \"$(omarchy-weather-status)\""
+    "on-click": "notify-send -u low \"$(omarchy-weather-status)\"",
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],

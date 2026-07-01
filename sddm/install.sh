@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-THEME_NAME="omarchy-custom"
+THEME_NAME="xcix"
 TARGET_DIR="/usr/share/sddm/themes/$THEME_NAME"
 
 echo "=== Instalando tema SDDM personalizado ==="
